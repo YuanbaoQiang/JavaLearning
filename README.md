@@ -23,9 +23,20 @@
 
 ## 注意事项
 
+### 编辑器
+
+建议[IDEA Ultimate 2020.1.1]()
+
+链接：https://pan.baidu.com/s/1GTzHQcRp3K68Lv2iPWSDWw 
+提取码：4ych
+
+破解过程参考：[IDEA 2020 破解](https://www.cnblogs.com/bokeLucky/p/12832046.html)
+
 > git, wget, curl速度太慢的解决办法：socks5代理。
 
-### Windows
+### Git下载残酷文件
+
+#### Windows
 
 ip为127.0.0.1, 端口为<font color=red>1080</font>
 
@@ -48,7 +59,7 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
-### Linux
+#### Linux
 
 如果你是SSR,并且走的http的代理端口是<font color=red>12333</font>，想执行wget或者curl来下载国外的东西，可以使用如下命令：
 
