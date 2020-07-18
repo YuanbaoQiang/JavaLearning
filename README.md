@@ -38,15 +38,15 @@
 
 #### Windows
 
-ip为127.0.0.1, 端口为<font color=red>1080</font>
+如果ip为127.0.0.1, 端口为<font color=red>1080</font>
 
-走http
+##### 走http
 
 ```bash
 git config --global http.proxy 'socks5://127.0.0.1:1080'
 ```
 
-走https
+##### 走https
 
 ```bash
 git config --global https.proxy 'socks5://127.0.0.1:1080'
@@ -61,14 +61,14 @@ git config --global --unset https.proxy
 
 #### Linux
 
-如果你是SSR,并且走的http的代理端口是<font color=red>12333</font>，想执行wget或者curl来下载国外的东西，可以使用如下命令：
+##### 走https
 
 ```bash
-export http_proxy=http://127.0.0.1:12333
+export http_proxy=http://127.0.0.1:1080
 ```
 
-如果是https那么就经过如下命令：
+##### 走https
 
 ```bash
-export https_proxy=http://127.0.0.1:12333
+export https_proxy=http://127.0.0.1:1080
 ```
