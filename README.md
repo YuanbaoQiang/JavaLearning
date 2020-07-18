@@ -32,9 +32,9 @@
 
 破解过程参考：[IDEA 2020 破解](https://www.cnblogs.com/bokeLucky/p/12832046.html)
 
-> git, wget, curl速度太慢的解决办法：socks5代理。
+### git, wget, curl速度太慢的解决办法
 
-### Git下载残酷文件
+> 挂VPN，然后bash界面socks5代理
 
 #### Windows
 
