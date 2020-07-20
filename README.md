@@ -18,8 +18,9 @@
 
 1. 黑马的课件，内含pdf总结文档及源代码；
 2. Markdown（`.md`）文件；
-3. 含IDEA的项目文件，`.java`文件在src文件夹中；
-4. 一些文档资料在<font color=red>书籍资料</font>文件夹:file_folder:中。
+3. Xmind（.xmind）文件；
+4. 含IDEA的项目文件，我的`.java`文件在src文件夹中；
+5. 一些文档资料在<font color=red>书籍资料</font>文件夹:file_folder:中。
 
 ## 注意事项
 
