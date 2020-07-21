@@ -16,11 +16,11 @@
 
 ## 仓库文件
 
-1. 黑马的课件，内含pdf总结文档及源代码；
-2. Markdown（`.md`）文件；
-3. Xmind（.xmind）文件；
-4. 含IDEA的项目文件，我的`.java`文件在src文件夹中；
-5. 一些文档资料在<font color=red>书籍资料</font>文件夹:file_folder:中。
+1. 数组以后更换为尚硅谷的文件；
+2. 总结资料:file_folder:Markdown（`.md`）和Xmind（.xmind）文件；
+3. 含IDEA的项目文件，我的`.java`文件在src文件夹中；
+4. 一些文档资料在书籍资料:file_folder:中；
+5. 项目:file_folder:含有一些项目小练习。
 
 ## 注意事项
 
