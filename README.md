@@ -10,7 +10,7 @@
 
 [国外Github站点](https://yuanbaoqiang.github.io/)（可能比较慢:crying_cat_face:，有时翻墙会好些）
 
-[国内coding站点](http://48lxh0.coding-pages.com/)（自动分配的域名，不稳定，速度相比于上一个会快些，由于域名不能跨省备案，所以暂时还没有稳定的个人域名）
+[国内Coding站点](http://48lxh0.coding-pages.com/)（自动分配的域名，不稳定，速度相比于上一个会快些，由于域名不能跨省备案，所以暂时还没有稳定的个人域名）
 
 所以一起加油吧！如果觉着有用可以点个star:star2:哦~
 
