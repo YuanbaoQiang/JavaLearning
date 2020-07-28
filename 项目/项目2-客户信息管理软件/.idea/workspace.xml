@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45f092da-862f-4039-932d-a716b765d249" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject02/src/com/yuanbaoqiang/p2/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject02/src/com/yuanbaoqiang/p2/service/CustomerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject02/src/com/yuanbaoqiang/p2/ui/CustomerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject02/src/com/yuanbaoqiang/p2/util/CMUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project02/src/com/yuanbaoqiang/project02/CMUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project02/src/com/yuanbaoqiang/project02/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project02/src/com/yuanbaoqiang/project02/CustomerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project02/src/com/yuanbaoqiang/project02/CustomerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project02/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目2-客户信息管理软件.iml" beforeDir="false" afterPath="$PROJECT_DIR$/项目2-客户信息管理软件.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1fIQAuxDXAmep8GpLs9RPex63wx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuanbaoqiang.p2.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.CustomerView">
+    <configuration name="CustomerView (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanbaoqiang.project02.CustomerView" />
+      <module name="project02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanbaoqiang.project02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerView (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuanbaoqiang.p2.ui.CustomerView" />
+      <module name="myproject02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuanbaoqiang.p2.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomerView" />
+      <module name="project02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="project02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45f092da-862f-4039-932d-a716b765d249" name="默认的" comment="" />
+      <created>1595902986332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595902986332</updated>
+      <workItem from="1595902988447" duration="10312000" />
+      <workItem from="1595914020618" duration="3814000" />
+      <workItem from="1595919290118" duration="3946000" />
+      <workItem from="1595929434348" duration="1270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1595941493302">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1595941493302" />
+    <state width="1493" height="34" key="GridCell.Tab.0.bottom" timestamp="1595919279416">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="34" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1595919279416" />
+    <state width="1493" height="34" key="GridCell.Tab.0.center" timestamp="1595919279415">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="34" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1595919279415" />
+    <state width="1493" height="34" key="GridCell.Tab.0.left" timestamp="1595919279415">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="34" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1595919279415" />
+    <state width="1493" height="34" key="GridCell.Tab.0.right" timestamp="1595919279415">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="34" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1595919279415" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1595919273813">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1595919273813" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1595914265794">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1536.864@0.0.1536.864" timestamp="1595914265794" />
+    <state x="322" y="42" key="new project wizard" timestamp="1595941493979">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="322" y="42" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1595941493979" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595922392006">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1595922392006" />
+  </component>
+</project>

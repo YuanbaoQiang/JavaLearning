@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97669e74-f9bd-41d8-8334-440f31353767" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目2-客户信息管理软件/project02/project02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目2-客户信息管理软件/project02/src/CMUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目2-客户信息管理软件/project02/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目2-客户信息管理软件/project02/src/CustomerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目2-客户信息管理软件/project02/src/CustomerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../项目2-客户信息管理软件/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../项目2-客户信息管理软件/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../项目2-客户信息管理软件/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../项目2-客户信息管理软件/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../项目2-客户信息管理软件/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../项目2-客户信息管理软件/src/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../项目2-客户信息管理软件/项目2-客户信息管理软件.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../项目2-客户信息管理软件/项目2-客户信息管理软件.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1fIX6srPK4OnaT8QBRbqrwSFQXt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97669e74-f9bd-41d8-8334-440f31353767" name="默认的" comment="" />
+      <created>1595906408998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595906408998</updated>
+      <workItem from="1595906411514" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="7" key="SettingsEditor" timestamp="1595906457698">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1595906457698" />
+    <state x="322" y="42" key="new project wizard" timestamp="1595906451097">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="322" y="42" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1595906451097" />
+  </component>
+</project>
