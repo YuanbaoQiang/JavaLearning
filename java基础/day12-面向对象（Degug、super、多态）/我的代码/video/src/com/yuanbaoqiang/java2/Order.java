@@ -19,7 +19,7 @@ public class Order {
         orderDefault = 1;
         orderPrivate = 1;
         orderProtected = 1;
-         orderPublic = 1;
+        orderPublic = 1;
     }
 
     void methodDefault(){

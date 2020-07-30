@@ -20,5 +20,8 @@ public class OrderTest {
         order.methodProtected();
         order.methodPublic();
 
+        // 同一个包中的其他类，不可以调用Order类中私有的属性、方法
+        // private
+
     }
 }
