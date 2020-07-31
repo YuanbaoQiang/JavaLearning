@@ -20,7 +20,8 @@
 2. 总结资料:file_folder:Markdown（`.md`）和Xmind（.xmind）文件；
 3. 含IDEA的项目文件，我的`.java`文件在src文件夹中；
 4. 一些文档资料在书籍资料:file_folder:中；
-5. 项目:file_folder:含有一些项目小练习。
+5. 项目:file_folder:含有一些项目小练习；
+6. 每天会更新LeetCode的解题记录。
 
 ## 注意事项
 
