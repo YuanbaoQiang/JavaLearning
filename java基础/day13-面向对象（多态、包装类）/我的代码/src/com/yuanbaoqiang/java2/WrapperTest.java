@@ -106,7 +106,7 @@ public class WrapperTest {
         System.out.println(i1 + 1);
 
 
-        Float f1 = new Float((12.3));
+        Float f1 = new Float(12.3);
         float f2 = f1.floatValue();
         System.out.println(f2 + 1);
     }
@@ -137,9 +137,6 @@ public class WrapperTest {
         Boolean b2 = new Boolean("T");
         Boolean b3 = new Boolean("true123");
         System.out.println(b3);
-
-
-
     }
 }
 
