@@ -128,10 +128,14 @@ public class MapTest {
 
     @Test
     public void test5(){
-        Map map = new HashMap();
-        map.put("AA",123);
+        HashMap map = new HashMap();
+        map.put("AA",166);
         map.put(45,1234);
         map.put("BB",56);
+        map.put("AA",123);
+
+        // lambda表达式
+        map.forEach((k,v) -> System.out.println( k + "-->" + v));
 
 
         // 遍历所有的key值
@@ -197,6 +201,7 @@ public class MapTest {
         map.put("AA",123);
         map.put(45,123);
         map.put("BB",56);
+        map.put("AA",124);
 
         // Object get(Object key)
         System.out.println(map.get(45));

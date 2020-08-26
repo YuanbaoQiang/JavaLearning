@@ -215,7 +215,6 @@ class SingleLinkedList {
 
     // 返回头节点
 
-
     public HeroNode getHead() {
         return head;
     }
@@ -311,7 +310,6 @@ class SingleLinkedList {
             temp.nickname = newHeroNode.nickname;
         } else { // 没有找到
             System.out.printf("没有找到编号为%d的节点，不能修改\n", newHeroNode.no);
-            ;
         }
     }
 

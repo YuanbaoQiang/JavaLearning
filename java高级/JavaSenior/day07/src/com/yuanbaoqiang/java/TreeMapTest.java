@@ -33,7 +33,7 @@ public class TreeMapTest {
         User u1 = new User("Tom", 23);
         User u2 = new User("Jerry", 32);
         User u3 = new User("Jack", 20);
-        User u4 = new User("Rose", 18);
+        User u4 = new User("Tom", 18);
 
         map.put(u1,98);
         map.put(u2,89);
@@ -55,6 +55,8 @@ public class TreeMapTest {
             Map.Entry entry = (Map.Entry) next;
             System.out.println(entry.getKey() + "--->" + entry.getValue());
         }
+
+
     }
 
 

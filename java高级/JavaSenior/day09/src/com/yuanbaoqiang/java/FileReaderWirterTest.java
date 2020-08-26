@@ -9,11 +9,11 @@
  * 3. 流的角色：节点流、处理流
  *
  * 二、流的体系结构
- * 抽象基类                         节点流（或文件流）                           缓冲流（处理流的一种）
- * InputStream                      FileInputStream                             BufferedInputStream
- * OutputStream                     FileOutputStream                            BufferedOutputStream
- * Reader                           FileReader                                  BufferedReader
- * Writer                           FileWriter                                  BufferedWriter
+ * 抽象基类                         节点流（或文件流）                                                  缓冲流（处理流的一种）
+ * InputStream                      FileInputStream（read(byte[] cbuf)）                             BufferedInputStream
+ * OutputStream                     FileOutputStream（write(byte[] buffer,0,len)）                   BufferedOutputStream
+ * Reader                           FileReader（read(char[] cbuf)）                                  BufferedReader
+ * Writer                           FileWriter（write(char[] cbuf,0,len)）                           BufferedWriter
  *
  *
  *
@@ -27,10 +27,7 @@ package com.yuanbaoqiang.java;
 
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class FileReaderWirterTest {
 
@@ -159,23 +156,139 @@ public class FileReaderWirterTest {
     *
     * */
     @Test
-    public void testFileWriter() throws IOException {
-        // 1. 提供File类的对象，指明写出到的文件
-        File file = new File("hello1.txt");
+    public void testFileWriter() {
+        FileWriter fw = null;
+        try {
+            // 1. 提供File类的对象，指明写出到的文件
+            File file = new File("hello1.txt");
 
-        // 2.提供FileWriter的对象，用于数据的写出
-        FileWriter fw = new FileWriter(file,true);
+            // 2.提供FileWriter的对象，用于数据的写出
+            fw = new FileWriter(file,true);
 
-        // 3. 写出的操作
-        fw.write("I have a dream!\n");
-        fw.write("you need to have a dream!");
+            // 3. 写出的操作
+            fw.write("I have a dream!\n");
+            fw.write("you need to have a dream!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if(fw != null){
+                // 4. 流资源的关闭
+                try {
+                    fw.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
 
-        // 4. 流资源的关闭
-        fw.close();
+            }
+        }
+
     }
 
 
+    @Test
+    public void testFileReaderFileWriter() {
+        FileReader fr = null;
+        FileWriter fw = null;
+        try {
+            //1. 创建File类的对象，指明读入和写出的文件
+            File scrFile = new File("hello.txt");
+            File destFile = new File("hello2.txt");
 
-    
+            // 不能使用字符流来使用图片等字节数据
+/*            File scrFile = new File("wallhaven-oxrq99.jpg");
+            File destFile = new File("wallhaven.jpg");*/
+
+            //2. 创建输入流和输出流的对象
+            fr = new FileReader(scrFile);
+            fw = new FileWriter(destFile);
+
+            //3. 数据的读入和写出操作
+            char[] cbuf = new char[5];
+            int len; //记录每次读入cbuf数组中的数据的字符个数
+            while((len = fr.read(cbuf)) != -1){
+                // 每次写出len个字符
+                fw.write(cbuf,0,len);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            //4. 关闭流资源
+            try {
+                fw.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            try {
+                fr.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+
+    // blog
+    @Test
+    public void test1(){
+        FileInputStream fis = null;
+        try {
+            fis = new FileInputStream(new File("hello.txt"));
+
+            byte[] buffer = new byte[4];
+            int len;
+            while((len = fis.read(buffer)) != -1){
+                String str = new String(buffer,0,len);
+                System.out.print(str);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if(fis != null){
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    @Test
+    public void test2() {
+        FileInputStream fis = null;
+        ByteArrayOutputStream baos = null;
+        try {
+            fis = new FileInputStream(new File("hello.txt"));
+
+            baos = new ByteArrayOutputStream();
+            byte[] buffer = new byte[5];
+            int len;
+            while((len = fis.read(buffer)) != -1){
+                baos.write(buffer,0,len);
+            }
+
+            System.out.println(baos.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if(baos != null){
+
+                try {
+                    baos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if(fis != null){
+
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 
 }
