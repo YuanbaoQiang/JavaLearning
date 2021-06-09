@@ -26,7 +26,7 @@
 
 [计算机组成原理-计算机性能指标](https://yuanbaoqiang.blog.csdn.net/article/details/110684216)
 
-[计算机组成原理-数制与编码（进制转换）]([计算机组成原理-数制与编码（进制转换）_快乐学术猿-CSDN博客](https://yuanbaoqiang.blog.csdn.net/article/details/110693683))
+[计算机组成原理-数制与编码（进制转换）](https://yuanbaoqiang.blog.csdn.net/article/details/110693683)
 
 [计算机组成原理-定点数的表示和运算](https://blog.csdn.net/qyb19970829/category_10620238.html)
 
@@ -77,6 +77,10 @@
 [【反向代理】远程连接安全配置](https://www.jianguoyun.com/p/DT9AUJMQv86nCBjpodUD)（建议自己申请一台云服务器，比较方便）
 
 ## 数据结构与算法
+
+待更新...
+
+## Linux基础
 
 待更新...
 
