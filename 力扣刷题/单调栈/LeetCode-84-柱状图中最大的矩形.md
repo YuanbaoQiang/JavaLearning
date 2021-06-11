@@ -30,9 +30,51 @@
 
 # 解题过程
 
+
+
 <font color=green size=5>单调栈</font>
 
-参考：[详解单调栈，🤷‍♀️必须秒懂！](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/xiang-jie-dan-diao-zhan-bi-xu-miao-dong-by-sweetie/)
+**代码1**
+
+**参考**：
+
++  [【柱状图中最大的矩形】单调栈入门，使用单调栈快速寻找边界](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-by-ikaruga/)
+
+```java
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+        int res = 0;
+        int[] new_height = new int[heights.length + 2];
+        Deque<Integer> stack = new LinkedList<>();
+        for(int i = 1; i < heights.length + 1; i++){
+            new_height[i] = heights[i - 1];
+        }
+
+        for(int i = 0; i < new_height.length; i++){
+            while(!stack.isEmpty() && new_height[stack.peek()] > new_height[i]){
+                // 对于每一个高度，都可以得到其左边界和有边界
+                // 在单调递增栈中，f的左边界就是下标4，g的右边界就是6
+                // 此时对于f高度的勾勒出的最大矩形面积就是 e * (6 - 4 - 1)
+                // a b c d e f g
+                // 0 1 2 3 4 5 6
+                int cur = stack.pop();
+                int l = stack.peek();
+                int r = i;
+                res = Math.max(res, (r - l - 1) * new_height[cur]);
+            }
+            stack.push(i);
+        }
+
+        return res;
+    }
+}
+```
+
+**代码2**
+
+**参考**：
+
++ [详解单调栈，🤷‍♀️必须秒懂！](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/xiang-jie-dan-diao-zhan-bi-xu-miao-dong-by-sweetie/)
 
 ```java
 class Solution {
